@@ -28,6 +28,10 @@ a.subtle:hover {
   color: #666;
 }
 
+.logo:hover a {
+  text-decoration: none;
+}
+
 .hero {
   min-height: 700px;
   background-image: $hero-image;
@@ -48,10 +52,9 @@ a.subtle:hover {
     }
 
     .logo {
-      top: 60%;
+      top: 65%;
     }
   }
-
   a, h4 {
     color: #FFF;
   }
@@ -200,7 +203,7 @@ h4 {
 
 .berries {
   background-image: url(../img/work_artis_cherries.jpg);
-  height: 100px;
+  height: 150px;
 }
 
 .artis-web { background-image: url(../img/work_artis_mountain.png); }

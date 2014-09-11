@@ -22,6 +22,9 @@ body {
 a.subtle:hover {
   color: #666; }
 
+.logo:hover a {
+  text-decoration: none; }
+
 .hero {
   min-height: 700px;
   background-image: url(../img/home_hero.png);
@@ -37,7 +40,7 @@ a.subtle:hover {
     .hero.small nav {
       padding-top: 15px; }
     .hero.small .logo {
-      top: 60%; }
+      top: 65%; }
   .hero a, .hero h4 {
     color: #FFF; }
   .hero h3 {
@@ -150,7 +153,7 @@ h4 {
 
 .berries {
   background-image: url(../img/work_artis_cherries.jpg);
-  height: 100px; }
+  height: 150px; }
 
 .artis-web {
   background-image: url(../img/work_artis_mountain.png); }

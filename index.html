@@ -38,7 +38,7 @@
           <a class="subtle" href="/case-studies.html">Read more</a>
         </p>
       </div>
-      <div class="col-md-7 col-sm-7 yell-and-tell col-md-height col-sm-height">
+      <div class="col-md-7 col-sm-7 yell-and-tell col-md-height col-sm-height hover-bright">
         <a href="https://www.youtube.com/watch?v=khWm05QN7Yg" target="_BLANK" title="Watch video on YouTube" class="play">
           <img src="./img/btn_play.png">
           <h4 class="filosofia upcase">Play</h4>
@@ -47,7 +47,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-5 col-sm-5 artis col-md-height col-sm-height">
+      <div class="col-md-5 col-sm-5 artis col-md-height col-sm-height hover-pointer hover-bright" href="/case-studies.html">
         <div class="caret-down" style="left: 15%"></div>
       </div>
       <div class="col-md-4 col-sm-4 col-md-height col-sm-height">
@@ -67,13 +67,13 @@
         <div class="rocks">
         </div>
       </div>
-      <div class="col-md-3 col-sm-3 col-md-height col-sm-height kate">
+      <div class="col-md-3 col-sm-3 col-md-height col-sm-height kate hover-pointer  hover-bright" href="/about.html">
         <div class="caret-right" style="top: 40%"></div>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-md-9 col-sm-9 business-cards col-md-height col-sm-height">
+      <div class="col-md-9 col-sm-9 business-cards col-md-height col-sm-height hover-pointer hover-bright" href="/work.html">
         <div class="caret-left" style="bottom: 15%; right: 0px;"></div>
       </div>
       <div class="col-md-3 col-sm-3 col-md-height col-sm-height">
@@ -92,7 +92,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row dark">
       <div class="col-md-4 col-sm-4 card  col-md-height col-sm-height">
         <h4 class="gotham upcase">Get in contact</h4>
         <p>
@@ -129,6 +129,14 @@
 
 <script type="text/javascript" src="https://mailtoninja-kickstrap.netdna-ssl.com/js/v0/mailto.ninja.js"></script>
 <script type="text/javascript">mailto.ninja()</script>
+<script type="text/javascript">
 
+  var elements = document.querySelectorAll('div[href]');
+  Array.prototype.slice.call(elements).forEach(function(element) {
+    element.addEventListener('click', function() {
+      window.location.href = element.attributes['href'].value;
+    });
+  })
+</script>
 </body>
 </html>

@@ -87,7 +87,7 @@ a.subtle:hover {
       padding: 0px; }
 
 p {
-  font-size: 1.5em; }
+  font-size: 1.7em; }
 
 .subtle {
   color: #666; }
@@ -99,7 +99,8 @@ h4 {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateY(-50%) translateX(-50%); }
+  transform: translateY(-50%) translateX(-50%);
+  text-align: center; }
   .play:hover {
     text-decoration: none; }
   .play img {
@@ -130,43 +131,51 @@ h4 {
 .row.dark {
   background-color: #F8FCFD; }
 
-.yell-and-tell {
-  background-image: url(../img/home_yell_and_tell.png);
-  background-size: cover;
-  background-position: center center;
-  height: 100%;
-  position: relative; }
-
-.artis {
-  background-image: url(../img/home_artis.png);
+.bigbg {
   background-size: cover;
   background-position: center center;
   height: 100%; }
+
+.yell-and-tell {
+  background-image: url(../img/home_yell_and_tell.png);
+  position: relative; }
+
+.spreenkler {
+  background-image: url(../img/work_spreenkler.jpg);
+  position: relative; }
 
 .rocks {
   background-image: url(../img/home_geodes.jpg);
-  background-size: cover;
-  background-position: center center;
-  height: 100%;
   height: 100px; }
 
+.berries {
+  background-image: url(../img/work_artis_cherries.jpg);
+  height: 100px; }
+
+.artis-web {
+  background-image: url(../img/work_artis_mountain.png); }
+
 .kate {
-  background-image: url(../img/home_patron_sainte.png);
-  background-size: cover;
-  background-position: center center;
-  height: 100%; }
+  background-image: url(../img/home_patron_sainte.png); }
+
+.artis {
+  background-image: url(../img/home_artis.png); }
 
 .business-cards {
-  background-image: url(../img/home_rokkincat.png);
-  background-size: cover;
-  background-position: center center;
-  height: 100%; }
+  background-image: url(../img/home_rokkincat.png); }
+
+.rokkincat-business-cards {
+  background-image: url(../img/work_rokkincat_back.jpg); }
+
+.litebrite {
+  background-image: url(../img/work_litebrite.jpg); }
 
 .owl {
-  background-image: url(../img/home_owl.png);
-  background-size: cover;
-  background-position: center center;
-  height: 100%; }
+  background-image: url(../img/home_owl.png); }
+
+.tall {
+  height: 450px;
+  width: 100%; }
 
 /* vertical alignment styles */
 .col-top {

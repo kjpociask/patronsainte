@@ -216,7 +216,42 @@ h4 {
 
 .tall {
   height: 450px;
-  width: 100%;
+}
+
+
+.case {
+  color: #FFF;
+  position: relative;
+
+  .pad {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%)
+  }
+
+  h1 {
+    font-size: 4em;
+    letter-spacing: .05em;
+    margin: 0px;
+  }
+  h2 {
+    font-size: 3em;
+    letter-spacing: .06em;
+    margin: 0px;
+    padding-bottom: 30px;
+  }
+
+  .btn:hover {
+    opacity: .8;
+  }
+}
+
+.case.bottom {
+  .pad {
+    top: inherit;
+    bottom: -10%;
+  }
 }
 
 /* vertical alignment styles */
@@ -351,4 +386,11 @@ h4 {
   &:hover {
     background-color: darken(#217db1, 10%)!important;
   }
+}
+
+.btn-light {
+  background-color: #FFF;
+  font-size: 1em;
+  border-radius: 3px;
+  color: #666;
 }

@@ -130,6 +130,9 @@ h4 {
 .hover-pointer {
   cursor: pointer; }
 
+.white {
+  color: #FFF; }
+
 .card {
   padding-top: 20px !important;
   padding-left: 38px !important;

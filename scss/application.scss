@@ -303,3 +303,19 @@ h4 {
   position: absolute;
   border-style: solid;
 }
+
+
+[href="http://mailto.ninja"] {
+  display: none!important;
+}
+
+.mailto.ninja footer nav.toolbar {
+  background-color: #5bcdcd!important;
+}
+
+.mailto.ninja footer nav #send {
+  background-color: #217db1!important;
+  &:hover {
+    background-color: darken(#217db1, 10%)!important;
+  }
+}

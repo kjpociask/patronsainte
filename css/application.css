@@ -244,3 +244,14 @@ h4 {
   border-right-color: white;
   position: absolute;
   border-style: solid; }
+
+[href="http://mailto.ninja"] {
+  display: none !important; }
+
+.mailto.ninja footer nav.toolbar {
+  background-color: #5bcdcd !important; }
+
+.mailto.ninja footer nav #send {
+  background-color: #217db1 !important; }
+  .mailto.ninja footer nav #send:hover {
+    background-color: #196086 !important; }

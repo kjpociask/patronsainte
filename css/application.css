@@ -30,6 +30,14 @@ a.subtle:hover {
   color: #FFF;
   position: relative;
   border-bottom: 60px solid #F8FCFD; }
+  .hero.small {
+    height: 250px;
+    min-height: 0px;
+    background-position: center 25%; }
+    .hero.small nav {
+      padding-top: 15px; }
+    .hero.small .logo {
+      top: 60%; }
   .hero a, .hero h4 {
     color: #FFF; }
   .hero h3 {
@@ -42,9 +50,9 @@ a.subtle:hover {
   .hero nav {
     text-align: center;
     padding-top: 25px; }
-  .hero nav a:hover {
+  .hero nav a:hover, .hero nav a.active {
     text-decoration: none;
-    border-bottom: 4px solid white;
+    border-bottom: 2px solid white;
     padding-bottom: 5px; }
   .hero .logo {
     text-transform: uppercase;

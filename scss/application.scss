@@ -38,6 +38,20 @@ a.subtle:hover {
 
   border-bottom: 60px solid #F8FCFD;
 
+  &.small {
+    height: 250px;
+    min-height: 0px;
+    background-position: center 25%;
+
+    nav {
+      padding-top: 15px;
+    }
+
+    .logo {
+      top: 60%;
+    }
+  }
+
   a, h4 {
     color: #FFF;
   }
@@ -56,9 +70,9 @@ a.subtle:hover {
     padding-top: 25px;
   }
 
-  nav a:hover {
+  nav a:hover, nav a.active {
     text-decoration: none;
-    border-bottom: 4px solid white;
+    border-bottom: 2px solid white;
     padding-bottom: 5px;
   }
 

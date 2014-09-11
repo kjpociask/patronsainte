@@ -92,6 +92,8 @@ h4 {
   top: 50%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%); }
+  .play:hover {
+    text-decoration: none; }
   .play img {
     margin-top: 20px;
     margin-bottom: 10px; }

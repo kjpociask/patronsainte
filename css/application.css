@@ -323,5 +323,5 @@ h4 {
 .bigtext {
   font-size: 1.25em; }
 
-.comingsoon {
+.comingsoon, .comingsoon:hover, .comingsoon:active {
   background-image: url(../img/btn_comingsoon.png); }

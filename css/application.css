@@ -5,13 +5,20 @@
   font-style: bold;
   font-weight: 700; }
 
+@font-face {
+  font-family: 'Filosofia';
+  src: url('../fonts/FilosofiaRegular.ttf');
+  src: local('☺'), url('../fonts/FilosofiaRegular.ttf') format('truetype');
+  font-style: bold;
+  font-weight: 700; }
+
 body {
   margin: 0px;
   padding: 0px;
   font-family: 'Filosofia'; }
 
 .filosofia {
-  font-family: 'FilosofiaRegular'; }
+  font-family: 'Filosofia'; }
 
 .gotham {
   font-family: 'Gotham-Bold'; }

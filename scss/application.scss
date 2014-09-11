@@ -6,6 +6,14 @@
   font-weight: 700;
 }
 
+@font-face {
+  font-family: 'Filosofia';
+  src: url('../fonts/FilosofiaRegular.ttf');
+  src: local('☺'), url('../fonts/FilosofiaRegular.ttf') format('truetype');
+  font-style: bold;
+  font-weight: 700;
+}
+
 $hero-image: url(../img/home_hero.png);
 
 body {
@@ -15,7 +23,7 @@ body {
 }
 
 .filosofia {
-  font-family: 'FilosofiaRegular';
+  font-family: 'Filosofia';
 }
 .gotham {
   font-family: 'Gotham-Bold';

@@ -1,121 +1,305 @@
-* {
-  box-sizing: border-box;
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url('/fonts/Gotham-Bold.eot');
+  src: local('☺'), url('/fonts/Gotham-Bold.woff') format('woff'), url('/fonts/Gotham-Bold.ttf') format('truetype'), url('/fonts/Gotham-Bold.svg') format('svg');
+  font-style: bold;
+  font-weight: 700;
 }
+
+$hero-image: url(/img/home_hero.png);
 
 body {
   margin: 0px;
   padding: 0px;
-  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-family: 'Filosofia'
 }
 
-.pull-right {
-  float: right;
+.filosofia {
+  font-family: 'FilosofiaRegular';
 }
-.pull-left {
-  float: left;
+.gotham {
+  font-family: 'Gotham-Bold';
 }
-
-.img-responsive {
-  width: 100%;
-}
-
-small {
-  color: #999;
-  font-weight: normal;
+.upcase {
+  text-transform: uppercase;
 }
 
-.img-circle {
-  border-radius: 100%;
-}
+.hero {
+  min-height: 700px;
+  background-image: $hero-image;
+  background-size: cover;
+  background-position: center center;
+  color: #FFF;
+  position: relative;
 
-.list-inline {
-  li {
-    display: inline-block;
-    padding-left: 8px;
-    padding-right: 8px;
+  border-bottom: 60px solid #F8FCFD;
+
+  a, h4 {
+    color: #FFF;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    font-family: 'Gotham-Bold';
+    letter-spacing: .1em;
+    font-size: 1.5em;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  nav {
+    text-align: center;
+    padding-top: 25px;
+  }
+
+  nav a:hover {
+    text-decoration: none;
+    border-bottom: 4px solid white;
+    padding-bottom: 5px;
+  }
+
+
+  .logo {
+    text-transform: uppercase;
+    font-family: 'Gotham-Bold';
+    letter-spacing: .3em;
+    font-size: 4.5em;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translateY(-50%) translateX(-50%);
+  }
+
+  .bottom {
+    position: absolute;
+    top: 100%;
+    transform: translateY(-130%);
+    text-align: center;
+    width:100%;
+    text-transform: uppercase;
+
+    h4 {
+      letter-spacing: .2em;
+      font-size: 1.5em;
+      margin: 0px;
+      padding: 0px;
+    }
+    h2 {
+      font-family: 'Gotham-Bold';
+      letter-spacing: .1em;
+      margin: 6px;
+      padding: 6px;
+    }
+    h3 {
+      margin: 0px;
+      padding: 0px;
+    }
   }
 }
 
-header {
-  margin: 0;
-  padding: 0;
-  height: 450px;
-  background-image: url(http://37.media.tumblr.com/d77e21ed167c2125627b210b48e23f81/tumblr_na0kw25OtD1st5lhmo1_1280.jpg);
-  background-size: cover;
-  background-position: center center;
-  border-bottom: 2px solid #333;
-}
-
-.script {
-  font-family: cursive;
+p {
   font-size: 1.5em;
 }
 
-a {
-  text-decoration: none;
-  color: green;
-  &:hover {
-    text-decoration: underline;
-  }
+.subtle {
+  color: #666;
 }
 
-.nav {
-  display: block;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 5px;
-  padding-right: 5px;
-  ul {
-    margin-top: -10px;
+h4 {
+  color: #444;
+}
+
+.play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+
+  img {
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
-  a {
+  h4 {
+    font-size: 1.4em;
+  }
+  h3, h4 {
     color: #FFF;
-    text-decoration: none;
+    padding: 3px;
+    letter-spacing: .2em;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
   }
 }
 
-.logo {
+.card {
+  padding-top: 20px !important;
+  padding-left: 38px !important;
+  padding-right: 38px !important;
+  padding-bottom: 20px !important;
+
+  h4 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+.yell-and-tell {
+  background-image: url(/img/home_yell_and_tell.png);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
   position: relative;
-  font-size: 30px;
-  font-family: cursive;
-  line-height: .8em;
-
-  .patron {
-
-  }
-
-  .sainte {
-    padding-left: .5em;
-  }
-
-  &:hover {
-    text-decoration: none;
-  }
 }
 
-.works .work {
-  height: 160px;
-  border: 1px solid black;
-  padding: 10px;
-  border-right: 0px;
-
-  &:nth-child(4), &:nth-child(8) {
-    border-right: 1px solid black;
-  }
-
-  &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4) {
-    border-bottom: 0px;
-  }
-
-  &:hover {
-    background-color: blue;
-  }
-
+.artis {
+  background-image: url(/img/home_artis.png);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
 }
 
-hr {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  border: 1px solid #999;
-  border-bottom: 0px;
+.rocks {
+  background-image: url(/img/home_geodes.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  height: 100px;
+}
+
+.kate {
+  background-image: url(/img/home_patron_sainte.png);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+}
+
+.business-cards {
+  background-image: url(/img/home_rokkincat.png);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+}
+
+.owl {
+  background-image: url(/img/home_owl.png);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+}
+
+/* vertical alignment styles */
+.col-top {
+    vertical-align:top;
+}
+.col-middle {
+    vertical-align:middle;
+}
+.col-bottom {
+    vertical-align:bottom;
+}
+
+/* fix firefox responsive images */
+.img-responsive {
+    width: 100%
+}
+
+/* columns of same height styles */
+.container-xs-height {
+    display:table;
+    padding-left:0px;
+    padding-right:0px;
+}
+.row-xs-height {
+    display:table-row;
+}
+.col-xs-height {
+    display:table-cell;
+    float:none;
+}
+@media (min-width: 768px) {
+    .container-sm-height {
+        display:table;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .row-sm-height {
+        display:table-row;
+    }
+    .col-sm-height {
+        display:table-cell;
+        float:none;
+    }
+}
+@media (min-width: 992px) {
+    .container-md-height {
+        display:table;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .row-md-height {
+        display:table-row;
+    }
+    .col-md-height {
+        display:table-cell;
+        float:none;
+    }
+}
+@media (min-width: 1200px) {
+    .container-lg-height {
+        display:table;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .row-lg-height {
+        display:table-row;
+    }
+    .col-lg-height {
+        display:table-cell;
+        float:none;
+    }
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12
+{
+  padding: 0px;
+}
+
+
+.caret-down {
+  width: 15px;
+  height: 30px;
+  border-width: 15px;
+  border-bottom-width: 0px;
+  border-top-width:30px;
+  border-color: transparent;
+  border-top-color: white;
+  position: absolute;
+  border-style: solid;
+}
+
+.caret-right {
+  width: 30px;
+  height: 15px;
+  border-width: 15px;
+  border-right-width: 0;
+  border-left-width: 30px;
+  border-color: transparent;
+  border-left-color: white;
+  position: absolute;
+  border-style: solid;
+}
+
+.caret-left {
+  width: 30px;
+  height: 15px;
+  border-width: 15px;
+  border-left-width: 0px;
+  border-right-width: 30px;
+  border-color: transparent;
+  border-right-color: white;
+  position: absolute;
+  border-style: solid;
 }

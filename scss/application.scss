@@ -392,4 +392,12 @@ h4 {
   background-image: url(../img/btn_casestudy.png);
   height: 49px;
   width: 172px;
+
+  &:active {
+    background-image: url(../img/btn_casestudy.png);
+  }
+}
+
+.bigtext {
+  font-size: 1.25em;
 }

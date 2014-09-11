@@ -19,6 +19,9 @@ body {
 .upcase {
   text-transform: uppercase; }
 
+a.subtle:hover {
+  color: #666; }
+
 .hero {
   min-height: 700px;
   background-image: url(../img/home_hero.png);

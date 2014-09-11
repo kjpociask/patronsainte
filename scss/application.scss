@@ -24,6 +24,10 @@ body {
   text-transform: uppercase;
 }
 
+a.subtle:hover {
+  color: #666;
+}
+
 .hero {
   min-height: 700px;
   background-image: $hero-image;

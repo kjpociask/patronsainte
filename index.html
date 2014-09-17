@@ -17,7 +17,11 @@
   <meta property="og:description" content="Patron Sainte is a creative director who concerns herself with branding, design, art, art-direction in film, and illustration. She also takes photographs and writes about travel, creativity, and heritage.">
 
   <link href="lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" media="all">
+  <link rel="stylesheet" href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
   <link href="css/application.css" rel="stylesheet" media="all">
+  <script type="text/javascript" src="/lib/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
 </head>
 <body>
   <div class="hero">
@@ -55,7 +59,7 @@
         </p>
       </div>
       <div class="col-md-7 col-sm-7 yell-and-tell col-md-height bigbg col-sm-height hover-bright">
-        <a href="https://www.youtube.com/watch?v=khWm05QN7Yg" target="_BLANK" title="Watch video on YouTube" class="play">
+        <a href="http://www.youtube.com/watch?v=khWm05QN7Yg" title="Watch video on YouTube" class="play fancybox fancybox.iframe">
           <img src="./img/btn_play.png">
           <h4 class="filosofia upcase">Play</h4>
           <h3 class="gotham upcase">Video</h3>
@@ -151,6 +155,19 @@
   Array.prototype.slice.call(elements).forEach(function(element) {
     element.addEventListener('click', function() {
       window.location.href = element.attributes['href'].value;
+    });
+  })
+  $(function() {
+    $(".fancybox").fancybox({
+      maxWidth	: 800,
+  		maxHeight	: 600,
+  		fitToView	: false,
+  		width		: '70%',
+  		height		: '70%',
+  		autoSize	: false,
+  		closeClick	: false,
+  		openEffect	: 'none',
+  		closeEffect	: 'none'
     });
   })
 </script>

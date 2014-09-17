@@ -6,10 +6,16 @@
   font-weight: 700; }
 
 @font-face {
+  font-family: 'Gotham-Medium';
+  src: url('../fonts/Gotham-Medium.eot');
+  src: local('☺'), url('../fonts/Gotham-Medium.woff') format('woff'), url('../fonts/Gotham-Medium.ttf') format('truetype'), url('../fonts/Gotham-Medium.svg') format('svg');
+  font-style: bold;
+  font-weight: 400; }
+
+@font-face {
   font-family: 'Filosofia';
   src: url('../fonts/FilosofiaRegular.ttf');
   src: local('☺'), url('../fonts/FilosofiaRegular.ttf') format('truetype');
-  font-style: bold;
   font-weight: 700; }
 
 body {
@@ -102,6 +108,11 @@ p {
 
 .subtle {
   color: #666; }
+
+.light {
+  color: #C4C4C4;
+  font-weight: 100;
+  font-family: 'Gotham-Medium' !important; }
 
 h4 {
   color: #444; }
@@ -336,3 +347,9 @@ h4 {
 
 .comingsoon, .comingsoon:hover, .comingsoon:active {
   background-image: url(../img/btn_comingsoon.png); }
+
+.center {
+  text-align: center; }
+
+.middle {
+  vertical-align: middle; }

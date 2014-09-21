@@ -212,7 +212,11 @@ h4 {
   }
 }
 .row.dark {
-  background-color: #F8FCFD;
+  background-color: #3D91D2;
+  color: #3E4155;
+  h4, a {
+    color: #3E4155 !important;
+  }
 }
 
 .bigbg {

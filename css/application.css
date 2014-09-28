@@ -25,6 +25,13 @@
   font-weight: 700;
   font-style: bold; }
 
+@font-face {
+  font-family: 'Filosofia Unicase';
+  src: url('../fonts/FilosofiaUnicase.ttf');
+  src: local('☺'), url('../fonts/FilosofiaUnicase.ttf') format('truetype');
+  font-weight: 700;
+  font-style: bold; }
+
 body {
   margin: 0px;
   padding: 0px;
@@ -35,6 +42,9 @@ body {
 
 .gotham {
   font-family: 'Gotham-Bold'; }
+
+.unicase {
+  font-family: 'Filosofia Unicase'; }
 
 .upcase {
   text-transform: uppercase; }

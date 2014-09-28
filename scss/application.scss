@@ -180,6 +180,7 @@ h4 {
   top: 50%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
   text-align: center;
 
   &:hover {
@@ -331,6 +332,14 @@ h4 {
   .hero {
     .logo {
       font-size: 3em;
+      transform: none;
+      position: static;
+      margin-top: 50px;
+    }
+
+    .bottom {
+      position: static;
+      margin-top: 100px;
     }
   }
   .bigbg {

@@ -250,6 +250,7 @@ h4 {
 .rocks {
   background-image: url(../img/home_geodes.jpg);
   height: 100px;
+  position: relative;
 }
 
 .berries {
@@ -321,19 +322,20 @@ h4 {
     width: 100%
 }
 
-/* columns of same height styles */
-.container-xs-height {
-    display:table;
-    padding-left:0px;
-    padding-right:0px;
+@media (max-width: 768px) {
+  .bigbg {
+    min-height: 200px;
+  }
+
+  .yell-and-tell {
+    height: 300px;
+  }
+
+  .tiny-top {
+    background-position: center top;
+  }
 }
-.row-xs-height {
-    display:table-row;
-}
-.col-xs-height {
-    display:table-cell;
-    float:none;
-}
+
 @media (min-width: 768px) {
     .container-sm-height {
         display:table;

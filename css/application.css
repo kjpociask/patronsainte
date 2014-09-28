@@ -308,6 +308,8 @@ h4 {
   border-top-color: white;
   position: absolute;
   border-style: solid; }
+  .caret-down.dark {
+    border-top-color: #3D91D2; }
 
 .caret-right {
   width: 30px;
@@ -319,6 +321,8 @@ h4 {
   border-left-color: white;
   position: absolute;
   border-style: solid; }
+  .caret-right.dark {
+    border-left-color: #3D91D2; }
 
 .caret-left {
   width: 30px;
@@ -330,6 +334,8 @@ h4 {
   border-right-color: white;
   position: absolute;
   border-style: solid; }
+  .caret-left.dark {
+    border-right-color: #3D91D2; }
 
 .hover-bright:hover {
   opacity: 0.7; }

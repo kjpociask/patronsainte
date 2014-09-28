@@ -246,6 +246,9 @@ h4 {
   top: inherit;
   bottom: -10%; }
 
+.back {
+  margin-top: -65px; }
+
 /* vertical alignment styles */
 .col-top {
   vertical-align: top; }

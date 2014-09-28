@@ -261,6 +261,8 @@ h4 {
   width: 100%; }
 
 @media (max-width: 768px) {
+  .hero .logo {
+    font-size: 3em; }
   .bigbg {
     min-height: 200px; }
   .yell-and-tell {

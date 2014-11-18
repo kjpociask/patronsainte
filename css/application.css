@@ -223,6 +223,9 @@ h4 {
 .tall {
   height: 450px; }
 
+.taller {
+  height: 550px; }
+
 .case {
   color: #FFF;
   position: relative; }
@@ -387,3 +390,6 @@ h4 {
 
 .middle {
   vertical-align: middle; }
+
+.tracked-out {
+  letter-spacing: 0.1em; }

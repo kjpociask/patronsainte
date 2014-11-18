@@ -1,0 +1,14 @@
+gulp:
+  build: .
+  command: gulp watch
+  volumes:
+    - .:/patronsainte.com
+
+web:
+  build: .
+  command: python -m SimpleHTTPServer
+  ports:
+    - "3000:8000"
+  volumes:
+    - .:/patronsainte.com
+

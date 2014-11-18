@@ -420,6 +420,18 @@ h4 {
   }
 }
 
+.caret-up {
+  width: 15px;
+  height: 30px;
+  border-width: 15px;
+  border-bottom-width: 30px;
+  border-top-width: 0px;
+  border-color: transparent;
+  border-bottom-color: white;
+  position: absolute;
+  border-style: solid;
+}
+
 .caret-right {
   width: 30px;
   height: 15px;
@@ -498,3 +510,26 @@ h4 {
 
 .tracked-out {
   letter-spacing: .1em; }
+
+.fifth {
+  float: left;
+  display: block;
+  width: 20%;
+}
+
+.link-card {
+  color: #777;
+  &:hover {
+    text-decoration: none;
+    color: #555;
+  }
+  strong {
+    color: #555;
+  }
+}
+
+.centered {
+  margin: auto; }
+
+.relative {
+  position: relative; }

@@ -223,9 +223,6 @@ h4 {
 .tall {
   height: 450px; }
 
-.taller {
-  height: 550px; }
-
 .case {
   color: #FFF;
   position: relative; }
@@ -332,6 +329,17 @@ h4 {
   .caret-down.dark {
     border-top-color: #3D91D2; }
 
+.caret-up {
+  width: 15px;
+  height: 30px;
+  border-width: 15px;
+  border-bottom-width: 30px;
+  border-top-width: 0px;
+  border-color: transparent;
+  border-bottom-color: white;
+  position: absolute;
+  border-style: solid; }
+
 .caret-right {
   width: 30px;
   height: 15px;
@@ -393,3 +401,22 @@ h4 {
 
 .tracked-out {
   letter-spacing: 0.1em; }
+
+.fifth {
+  float: left;
+  display: block;
+  width: 20%; }
+
+.link-card {
+  color: #777; }
+  .link-card:hover {
+    text-decoration: none;
+    color: #555; }
+  .link-card strong {
+    color: #555; }
+
+.centered {
+  margin: auto; }
+
+.relative {
+  position: relative; }

@@ -98,11 +98,13 @@ a.subtle:hover {
     top: 50%;
     left: 50%;
     width: 100%;
-    transform: translateY(-50%) translateX(-50%); }
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%); }
   .hero .bottom {
     position: absolute;
     top: 100%;
     transform: translateY(-130%);
+    -webkit-transform: translateY(-130%);
     text-align: center;
     width: 100%;
     text-transform: uppercase; }

@@ -128,12 +128,14 @@ a.subtle:hover {
     left: 50%;
     width: 100%;
     transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
   }
 
   .bottom {
     position: absolute;
     top: 100%;
     transform: translateY(-130%);
+    -webkit-transform: translateY(-130%);
     text-align: center;
     width:100%;
     text-transform: uppercase;
@@ -281,6 +283,7 @@ h4 {
     top: 50%;
     left: 10%;
     transform: translateY(-50%)
+    -webkit-transform: translateY(-50%);
   }
 
   h1 {

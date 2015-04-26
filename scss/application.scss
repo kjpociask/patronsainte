@@ -48,6 +48,13 @@ body {
   color: #666;
 }
 
+a {
+  color: #6DCDB8;
+  &:hover {
+    color: #49c5b1;
+  }
+}
+
 .filosofia {
   font-family: 'Filosofia';
 }

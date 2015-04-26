@@ -545,4 +545,12 @@ h4 {
 
 .read-more {
   color: #6DCDB8;
+  font-size: .8em;
+  &:hover {
+    color: #49c5b1;
+  }
+}
+
+.brand-strategy {
+  text-shadow: 0 0 10px rgba(0,0,0,.5);
 }

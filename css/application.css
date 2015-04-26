@@ -426,7 +426,9 @@ h4 {
       -moz-filter: brightness(80%);
       filter: brightness(80%); }
   .link-card strong {
-    color: #555; }
+    color: #6DCDB8; }
+    .link-card strong:hover {
+      color: #49c5b1; }
 
 .centered {
   margin: auto; }

@@ -44,7 +44,8 @@ $hero-image: url(../img/home_hero.png);
 body {
   margin: 0px;
   padding: 0px;
-  font-family: 'Filosofia'
+  font-family: 'Filosofia';
+  color: #666;
 }
 
 .filosofia {
@@ -282,7 +283,7 @@ h4 {
     position: absolute;
     top: 50%;
     left: 10%;
-    transform: translateY(-50%)
+    transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
   }
 
@@ -525,6 +526,11 @@ h4 {
   &:hover {
     text-decoration: none;
     color: #555;
+    img {
+      -webkit-filter: brightness(90%);
+      -moz-filter: brightness(90%);
+      filter: brightness(90%);
+    }
   }
   strong {
     color: #555;
@@ -536,3 +542,7 @@ h4 {
 
 .relative {
   position: relative; }
+
+.read-more {
+  color: #6DCDB8;
+}

@@ -35,7 +35,8 @@
 body {
   margin: 0px;
   padding: 0px;
-  font-family: 'Filosofia'; }
+  font-family: 'Filosofia';
+  color: #666; }
 
 .filosofia {
   font-family: 'Filosofia'; }
@@ -232,7 +233,8 @@ h4 {
     position: absolute;
     top: 50%;
     left: 10%;
-    transform: translateY(-50%); }
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%); }
   .case h1 {
     font-size: 4em;
     letter-spacing: 0.05em;
@@ -414,6 +416,10 @@ h4 {
   .link-card:hover {
     text-decoration: none;
     color: #555; }
+    .link-card:hover img {
+      -webkit-filter: brightness(90%);
+      -moz-filter: brightness(90%);
+      filter: brightness(90%); }
   .link-card strong {
     color: #555; }
 
@@ -422,3 +428,6 @@ h4 {
 
 .relative {
   position: relative; }
+
+.read-more {
+  color: #6DCDB8; }

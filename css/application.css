@@ -431,7 +431,8 @@ h4 {
 
 .read-more {
   color: #6DCDB8;
-  font-size: 0.8em; }
+  font-size: 0.8em;
+  font-weight: bold; }
   .read-more:hover {
     color: #49c5b1; }
 
